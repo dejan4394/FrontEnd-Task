@@ -324,7 +324,7 @@ padding: 30px;
 
 
 /* -----------MOBILE RESPONSIVE-------------------------- */
-@media screen and (max-width:1024px){
+/* @media screen and (max-width:1024px){
   .nav-links {
     width: 50%;
   }
@@ -337,10 +337,10 @@ padding: 30px;
     position:unset;
     left: 0;
   }
-}
+} */
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:1000px){
   body{
     overflow-x: hidden;
   }
