@@ -325,9 +325,7 @@ padding: 30px;
 
 /* -----------MOBILE RESPONSIVE-------------------------- */
 @media screen and (max-width:1024px){
-  .nav-links {
-    width: 50%;
-  }
+ 
 
   .input-form{
     width: 50%;
@@ -403,6 +401,10 @@ padding: 30px;
     font-family: sans-serif;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .teasers-container{
+    grid-template-columns:none;
   }
 
   #section-three {
