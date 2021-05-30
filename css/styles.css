@@ -323,21 +323,6 @@ padding: 30px;
 }
 
 
-/* -----------MOBILE RESPONSIVE-------------------------- */
-/* @media screen and (max-width:1024px){
-  .nav-links {
-    width: 50%;
-  }
-
-  .input-form{
-    width: 50%;
-  }
-
-  .logo {
-    position:unset;
-    left: 0;
-  }
-} */
 
 
 @media screen and (max-width:1000px){
