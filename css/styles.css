@@ -1,0 +1,424 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: auto;
+}
+
+body {
+  margin: auto;
+}
+
+
+
+a {
+  margin-top: 30px;
+  text-align: center;
+  width: 200px;
+}
+
+/* ------NAV CSS------ */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  min-height: 50px;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.logo {
+  font-size: 40px;
+  position: absolute;
+  left: 100px;
+}
+
+.nav-links {
+  display: flex;
+  justify-items: center;
+  justify-content: space-around;
+  min-height: inherit;
+}
+
+.nav-links li{
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  padding: 13px 0;
+}
+
+.nav-links a:hover {
+  color: #00ffff;
+  border-bottom: 3px solid #00ffff;
+}
+
+.burger{
+  display: none;
+  cursor: pointer;
+}
+
+.burger div{
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background-color: black;
+  transition: all 0.5s ease;
+}
+/* ------END OF NAV CSS------------- */
+
+/* ---------SECTION ONE----------------- */
+.top-container {
+  background-image: url(https://res.cloudinary.com/grand-canyon-university/image/fetch/w_750,h_564,c_fill,g_faces,q_auto,f_auto/https://www.gcu.edu/sites/default/files/2020-09/programming.jpg);
+  background-size: cover;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  width: 100%;
+  height: 500px;
+}
+
+.contact-button {
+  text-align: center;
+  background-color: rgba(238, 229, 229, 0.747);
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background: black;
+  border-radius: 50px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button p{
+  margin-top: 12px;
+}
+
+.btn:hover {
+  background: grey;
+  text-decoration: none;
+}
+
+/* ------------------------------------------- */
+
+/* ------SECTION TWO----------------------------- */
+#section-two {
+  margin: 50px auto;
+  font-family: sans-serif;
+  margin-left: 170px;
+  margin-right: 170px;
+}
+
+.section-title{
+  margin-left: 20px;
+  margin-bottom: 50px;
+  font-size: 2rem;
+}
+
+.teasers-container{
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+  row-gap: 5rem;
+  column-gap: 9rem;
+}
+
+.teaser-image{
+  height: 175px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.teaser-image img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.teaser{
+  width: 350px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 grey;
+  transition: 0.3s;
+}
+
+.teaser:hover{
+  box-shadow: 0 0 20px 0 black;
+  cursor: pointer;
+}
+
+.teaser-content{
+  padding: 20px;
+  max-width: 250px;
+}
+
+.teaser-content .teaser-title{
+  margin-bottom: 20px;
+}
+
+.teaser-content .teaser-text{
+  font-size: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.teaser-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 120px;
+  background: black;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+  text-decoration: none;
+  margin-left:200px;
+  margin-bottom: 20px;
+}
+
+/* ----------------------------------------------- */
+
+/* -----------SECTION THREE-------------------------- */
+#section-three {
+  font-family: sans-serif;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-image: url(https://albukairiyah.com/wp-content/uploads/2021/03/Programming.jpg);
+  height: auto;
+  padding-bottom: 40px;
+}
+
+.section-three-title{
+  color: white;
+  margin-left: 100px;
+  font-size: 2rem;
+  padding: 50px 0 40px;
+}
+
+.input-form{
+  display: flex;
+  flex-flow: wrap;
+  flex-flow: column;
+  padding: 20px;
+  width: 40%;
+  height: auto;
+  background-color: rgba(238, 229, 229, 0.747);
+  border-radius: 10px;
+}
+
+.input-form-title{
+  width: calc(100% - 20px);
+  margin-bottom: 20px;
+}
+
+.inputs{
+  width: calc(100% - 20px);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  row-gap: 40px;
+  column-gap: 30px;
+}
+
+.input{
+  display: inline;
+  width: 100%;
+}
+
+.input input{
+  border: none;
+  height:30px;
+  width: -webkit-fill-available;
+  border-radius: 8px;
+}
+
+textarea {
+  border: none;
+  width: -webkit-fill-available;
+  border-radius: 8px;
+}
+
+.submit-button{
+  border: none;
+  height: 30px;
+  width: 120px;
+  background: black;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+/* ----------------------------------------------------- */
+
+/* -----------FOOTER------------------------------------- */
+#footer{
+  height:auto;
+  font-family: sans-serif;
+}
+
+.footer {
+  padding: 10px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-left{
+margin: 0;
+padding: 30px 0 0 40px;
+width: fit-content;
+}
+
+.footer-right{
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.footer-links{
+padding: 30px;
+}
+
+.footer-right h2{
+  padding-bottom: 10px;
+  font-size: 15px;
+  
+}
+
+.footer-right li,a{
+  list-style: none;
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+.footer-right ul{
+  padding-left: 10px;
+}
+
+
+/* -----------MOBILE RESPONSIVE-------------------------- */
+@media screen and (max-width:1024px){
+  .nav-links {
+    width: 50%;
+  }
+
+  .input-form{
+    width: 50%;
+  }
+
+  .logo {
+    position:unset;
+    left: 0;
+  }
+}
+
+
+@media screen and (max-width:768px){
+  body{
+    overflow-x: hidden;
+  }
+
+  .logo {
+    position:unset;
+    left: 0;
+  }
+  .nav-links {
+    background-color: white;
+    position: absolute;
+    top: 46px;
+    right: 0;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .nav-links li{
+    opacity: 0;
+  }
+  .burger{
+    display: block;
+  }
+
+  .input-form{
+    width: 80%;
+  }
+
+  .inputs{
+    width: calc(100% - 50px);
+    grid-template-columns:none
+  }
+
+  #section-two {
+    margin: 50px auto;
+    font-family: sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #section-three {
+    height: 700px;
+  }
+
+  .footer{
+    /* flex-direction: column;    */
+  }
+
+}
+
+.nav-active{
+  transform: translateX(0%);
+}
+/* ---------------------------------------------- */
+
+/* -----------NAV LINKS ANIMATION----------------- */
+@keyframes navLinksFade{
+  from{
+    opacity: 0;
+    transform: translateX(50px);
+
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+/* -------------------------------------------------- */
+
+/* --------------BURGER ANIMATION---------------------- */
+.toggle .line1{
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.toggle .line2{
+  opacity: 0;
+}
+
+.toggle .line3{
+  transform: rotate(45deg) translate(-5px, -6px);
+}
