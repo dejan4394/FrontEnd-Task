@@ -25,7 +25,7 @@ nav {
   flex-wrap: wrap;
   justify-content:center;
   align-items: center;
-  min-height: 80px;
+  min-height: 50px;
   font-family: "Helvetica Neue", sans-serif;
 }
 
@@ -63,8 +63,8 @@ nav {
 }
 
 .burger div{
-  width: 50px;
-  height: 12px;
+  width: 25px;
+  height: 3px;
   margin: 5px;
   background-color: black;
   transition: all 0.5s ease;
@@ -120,7 +120,8 @@ nav {
 #section-two {
   margin: 50px auto;
   font-family: sans-serif;
- padding: 0 200px;
+  margin-left: 170px;
+  margin-right: 170px;
 }
 
 .section-title{
@@ -299,7 +300,6 @@ width: fit-content;
 
 .footer-links{
 padding: 30px;
-display: block;
 }
 
 .footer-right h2{
@@ -323,17 +323,26 @@ display: block;
 }
 
 
-
-
-@media screen and (max-width:1000px){
-  body{
-    overflow-x: hidden;
+/* -----------MOBILE RESPONSIVE-------------------------- */
+@media screen and (max-width:1024px){
+  .nav-links {
+    width: 50%;
   }
 
-  nav {
-    
-    min-height: 100px;
-   
+  .input-form{
+    width: 50%;
+  }
+
+  .logo {
+    position:unset;
+    left: 0;
+  }
+}
+
+
+@media screen and (max-width:768px){
+  body{
+    overflow-x: hidden;
   }
 
   .logo {
@@ -380,11 +389,8 @@ display: block;
     height: 700px;
   }
 
-  .footer {
-    padding: 10px 100px;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
+  .footer{
+    /* flex-direction: column;    */
   }
 
 }
@@ -410,7 +416,7 @@ display: block;
 
 /* --------------BURGER ANIMATION---------------------- */
 .toggle .line1{
-    transform: rotate(-45deg) translate(-16px, 16px);
+    transform: rotate(-45deg) translate(-6px, 6px);
 }
 
 .toggle .line2{
@@ -418,5 +424,5 @@ display: block;
 }
 
 .toggle .line3{
-  transform: rotate(45deg) translate(-5px, -8px);
+  transform: rotate(45deg) translate(-5px, -6px);
 }
