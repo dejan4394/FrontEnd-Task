@@ -7,10 +7,6 @@ html {
   margin: auto;
 }
 
-body {
-  margin: auto;
-}
-
 
 
 a {
@@ -325,9 +321,10 @@ padding: 30px;
 
 /* -----------MOBILE RESPONSIVE-------------------------- */
 @media screen and (max-width:1024px){
- body{
-overflow-x: hidden;
- }
+
+   body{
+   overflow-x: hidden;
+  }
 
   .input-form{
     width: 50%;
@@ -412,10 +409,6 @@ overflow-x: hidden;
 
   #section-three {
     height: 700px;
-  }
-
-  .footer{
-    /* flex-direction: column;    */
   }
 
 }
