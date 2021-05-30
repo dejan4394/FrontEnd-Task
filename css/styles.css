@@ -300,6 +300,7 @@ width: fit-content;
 
 .footer-links{
 padding: 30px;
+display: block;
 }
 
 .footer-right h2{
