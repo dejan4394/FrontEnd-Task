@@ -308,6 +308,10 @@ padding: 30px;
   
 }
 
+.footer-right li{
+  margin-bottom: 10px;
+}
+
 .footer-right li,a{
   list-style: none;
   text-decoration: none;
@@ -336,7 +340,7 @@ padding: 30px;
 }
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:900px){
   body{
     overflow-x: hidden;
   }
