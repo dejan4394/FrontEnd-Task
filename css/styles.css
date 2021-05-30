@@ -120,8 +120,7 @@ nav {
 #section-two {
   margin: 50px auto;
   font-family: sans-serif;
-  margin-left: 170px;
-  margin-right: 170px;
+ padding: 0 200px;
 }
 
 .section-title{
@@ -382,7 +381,7 @@ display: block;
   }
 
   .footer {
-    padding: 10px;
+    padding: 10px 100px;
     height: auto;
     display: flex;
     flex-wrap: wrap;
