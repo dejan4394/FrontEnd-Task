@@ -340,7 +340,7 @@ padding: 30px;
 }
 
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:600px){
   body{
     overflow-x: hidden;
   }
