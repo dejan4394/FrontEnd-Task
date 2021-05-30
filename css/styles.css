@@ -325,7 +325,9 @@ padding: 30px;
 
 /* -----------MOBILE RESPONSIVE-------------------------- */
 @media screen and (max-width:1024px){
- 
+ body{
+overflow-x: hidden;
+ }
 
   .input-form{
     width: 50%;
@@ -405,6 +407,7 @@ padding: 30px;
 
   .teasers-container{
     grid-template-columns:none;
+
   }
 
   #section-three {
