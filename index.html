@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="valtech.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="js\index.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -26,10 +25,10 @@
     <li id="nl">
       <a href="#section-one">Section one</a>
     </li>
-    <li>
+    <li id="nl">
       <a href="#section-two">Section two</a>
     </li>
-    <li>
+    <li id="nl">
       <a href="#section-three">Section three</a>
     </li>
   </ul>
@@ -52,7 +51,9 @@
     <div class="top-container">
       <div class="contact-button">
         <div class="button">
-          <a class="btn" href="mailto:dejanmalinov@yahoo.com">CONTACT ME</a>
+          <a class="btn" href='javascript:window.location="mail"+"to:"+"dejanmalinov"+"@"+"yahoo"+"."+"com";'
+onmouseover='window.status="mail"+"to:"+"dejanmalinov"+"@"+"yahoo"+"."+"com"; return true;'
+onmouseout='window.status="";return true;'>CONTACT ME</a>
           <p>dejanmalinov@yahoo.com</p>
         </div>
       </div>
@@ -208,8 +209,7 @@
      
   </footer>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="index.js"></script>
 </body>
 
